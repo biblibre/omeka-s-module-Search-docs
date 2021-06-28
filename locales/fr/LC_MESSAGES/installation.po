@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, BibLibre
+# This file is distributed under the same license as the Search — Omeka S
+# Module package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Search — Omeka S Module\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-24 09:42+0000\n"
+"PO-Revision-Date: 2021-06-24 12:28+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: ../../installation.rst:2 1dbb7e012e754f91a85629985cc87e8b
+msgid "Installation"
+msgstr "Installation"
+
+#: ../../installation.rst:5 70a8beb7393c4d8397f47fd54092bf58
+msgid "From a ZIP file"
+msgstr "Depuis un fichier ZIP"
+
+#: ../../installation.rst:7 6d3cc7bf7d654b7794fc3856268ec8b0
+msgid "Download the latest release from https://omeka.org/s/modules/Search/"
+msgstr ""
+"Téléchargez la dernière version depuis https://omeka.org/s/modules/Search/"
+
+#: ../../installation.rst:8 0e740dab0def48d9b8129eede8b7a289
+msgid "Unzip it inside Omeka's ``modules`` directory"
+msgstr "Dézippez le dans le répertoire ``modules`` d'Omeka"
+
+#: ../../installation.rst:9 ../../installation.rst:20
+#: 1bb5156bd3e14cb4ab56c09c1e9619b5 d963187ba8ff477386e1da1f2d418e13
+msgid ""
+"Navigate to the Modules tab on the left-hand navigation of the admin "
+"dashboard of your Omeka S installation, find the module in the table and "
+"click the install button"
+msgstr ""
+"Allez dans l'onglet Modules dans la navigation à gauche du tableau de "
+"bord d'administration de votre installation Omeka S, trouvez le module "
+"dans le tableau et cliquez sur le bouton installer"
+
+#: ../../installation.rst:14 4ef3ac911df14505991e82a3b5272673
+msgid "From the git repository"
+msgstr "Depuis le dépôt git"
+
+#: ../../installation.rst:16 119e9afac7da42f189592d929c795b7b
+msgid "Clone the repository inside Omeka's ``modules`` directory::"
+msgstr "Clonez le dépôt dans le répertoire ``modules`` d'Omeka::"
+
+#: ../../installation.rst:24 2bcb4d761ff24060a338bf32748465b1
+msgid ""
+"You can find more detailed instructions in `Omeka S user manual <https://"
+"omeka.org/s/docs/user-manual/modules>`_."
+msgstr ""
+"Vous pouvez trouver des instructions plus détaillées dans `le manuel "
+"utilisateur Omeka S <https://omeka.org/s/docs/user-manual/modules>`_."
