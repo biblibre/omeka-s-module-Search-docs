@@ -1,6 +1,6 @@
-===========================
- Search --- Omeka S Module
-===========================
+========
+ Search
+========
 
 `Search`_ is a module that adds search capabilities to Omeka S.
 
@@ -19,7 +19,8 @@ While this module provides a standard form, it does not provide any adapter. So
 in order to use the search features of this module you will need to find and
 install a module that implements an adapter.
 
-The `Solr module <https://github.com/biblibre/omeka-s-module-Solr>`_ implements an adapter for the `Solr search engine <https://solr.apache.org/>`_.
+The `Solr module <https://github.com/biblibre/omeka-s-module-Solr>`_ implements
+an adapter for the `Solr search engine <https://solr.apache.org/>`_.
 
 .. toctree::
    :hidden:

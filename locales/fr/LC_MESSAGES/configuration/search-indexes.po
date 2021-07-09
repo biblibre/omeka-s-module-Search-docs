@@ -8,18 +8,201 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Search — Omeka S Module\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-24 09:54+0000\n"
-"PO-Revision-Date: 2021-06-24 12:37+0200\n"
+"POT-Creation-Date: 2021-07-09 17:04+0000\n"
+"PO-Revision-Date: 2021-07-09 19:23+0200\n"
+"Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
+"Language: fr\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
-"Language-Team: \n"
-"Language: fr\n"
 "X-Generator: Poedit 2.2.1\n"
 
-#: ../../configuration/search-indexes.rst:3 3e8d0323c8744e90afa7e886974968ac
+#: ../../configuration/search-indexes.rst:2 259d3b1de35d400e85eb6b611b75431b
 msgid "Search indexes"
 msgstr "Indexes de recherches"
+
+#: ../../configuration/search-indexes.rst:4 99c194ec26e54852a44a4bd0f045cdc3
+msgid ""
+"Search indexes are repositories where Omeka resources will be stored in a "
+"format suitable doing fast search queries. This repository will be updated "
+"every time an Omeka resource is created, modified, or deleted, so the "
+"search index will always be in sync with the data present in Omeka."
+msgstr ""
+"Les indexes de recherche sont des dépôts où seront stockées les ressources "
+"Omeka dans un format approprié pour effectuer des requêtes de recherche "
+"rapides. Ce dépôt sera mis à jour à chaque fois qu'une ressource Omeka est "
+"créée, modifiée, ou supprimée, donc l'index de recherche sera toujours "
+"synchronisé avec les données présentes dans Omeka."
+
+#: ../../configuration/search-indexes.rst:11 56ebb5589b65478eb977dd7400872a35
+msgid "Create a search index"
+msgstr "Créer un index de recherche"
+
+#: ../../configuration/search-indexes.rst:13 eabc58c9b9e7433b876f4fab89cd0caa
+msgid ""
+"To create a search index, go to the Search module's main configuration "
+"page."
+msgstr ""
+"Pour créer un index de recherche, allez sur la page de configuration "
+"principale du module Search."
+
+#: ../../configuration/search-indexes.rst:17 dbca560352ca490faeadca97d7c4d97f
+msgid "Then click on the \"Add new index\" button in the upper right corner."
+msgstr ""
+"Puis cliquez sur le bouton « Ajouter un nouvel index » dans le coin "
+"supérieur droit."
+
+#: ../../configuration/search-indexes.rst:21 a36631b07a4c44c38e1bf321699dd3c3
+msgid ""
+"Give the search index a name, and select a search adapter. If you don't "
+"have any available adapters, you need to install additional modules first, "
+"for instance `Solr <https://github.com/biblibre/omeka-s-module-Solr>`_."
+msgstr ""
+"Donnez un nom à l'index de recherche, et sélectionnez un adaptateur. Si "
+"aucun adaptateur n'est disponible, vous devez d'abord installer des "
+"modules supplémentaires, par exemple `Solr <https://github.com/biblibre/"
+"omeka-s-module-Solr>`_."
+
+#: ../../configuration/search-indexes.rst:25 16090c2d191244fc854056259e3ab64e
+msgid ""
+"To continue, click on the \"Add\" button. This will create the search "
+"index, and redirect you to the search index configuration page."
+msgstr ""
+"Pour continuer, cliquez sur le bouton « Ajouter ». Cela créera l'index de "
+"recherche, et vous redirigera vers la page de configuration de l'index de "
+"recherche."
+
+#: ../../configuration/search-indexes.rst:30 a0127aad171d4f26be2702b53e18fb68
+msgid ""
+"Choose if you want to index items, item sets, or both. If you choose to "
+"index both, then both types of resources will be displayed in the search "
+"results. There could be also settings specific to the adapter you selected "
+"in the previous screen."
+msgstr ""
+"Choisissez si vous voulez indexer les contenus, les collections, ou les "
+"deux. Si vous choisissez d'indexer les deux, alors les deux types de "
+"ressources seront affichées dans les résultats de recherche. Il peut aussi "
+"y avoir des paramètres spécifiques à l'adaptateur que vous avez "
+"sélectionné à l'écran précédent."
+
+#: ../../configuration/search-indexes.rst:35 55b6da0a426c458fbdb91aec8348819d
+msgid ""
+"Once all settings are set, click on the \"Save configuration\" button. You "
+"will be redirected back to the main configuration page."
+msgstr ""
+"Une fois les paramètres définis, cliquez sur le bouton « Enregistrer la "
+"configuration ». Vous serez redirigé vers la page de configuration "
+"principale."
+
+#: ../../configuration/search-indexes.rst:42 4cb5dfd99c954c01bd25eb3b477009b1
+msgid "Rebuild a search index"
+msgstr "Reconstruire un index de recherche"
+
+#: ../../configuration/search-indexes.rst:44 dc7d4da62adf4a959f09db31b22ae939
+msgid ""
+"When a search index is created, it is empty. If you already have created "
+"resources, you have to manually rebuild the index in order to index all "
+"existing resources. You will also need to rebuild the index if you change "
+"something in the adapter settings and want the changes to apply "
+"immediately."
+msgstr ""
+"Quand un index de recherche est créé, il est vide. Si vous avez déjà créé "
+"des ressources, vous devez reconstruire manuellement l'index pour indexer "
+"toutes les ressources existantes. Vous aurez également besoin de "
+"reconstruire l'index si vous changez quelque chose dans les paramètres de "
+"l'adaptateur et que vous voulez que les changements s'appliquent "
+"immédiatement."
+
+#: ../../configuration/search-indexes.rst:49 15667c001ff24d39a543ff547a807cf4
+msgid ""
+"To rebuild the index, go to the Search module's main configuration page, "
+"find the search index you want to rebuild and click on the |sync icon| "
+"sync icon on the corresponding row."
+msgstr ""
+"Pour reconstruire l'index, allez sur la page de configuration principale "
+"du module Search, trouvez l'index de recherche que vous voulez "
+"reconstruire et cliquez sur |sync icon| l'icône de synchronisation sur la "
+"ligne correspondante."
+
+#: ../../configuration/search-indexes.rst:55 05f9e0683ec24ac8982c36851eee4caf
+msgid "You have the following options:"
+msgstr "Vous avez les options suivantes:"
+
+#: ../../configuration/search-indexes.rst:59 fda25803a8b94821928038fdfe7bff22
+msgid "Clear index"
+msgstr "Nettoyer l'index"
+
+#: ../../configuration/search-indexes.rst:58 de04dbefa3714bc99b5a4783a87d5f28
+msgid ""
+"If you want to empty the index completely before rebuilding it, check that "
+"box."
+msgstr ""
+"Si vous voulez vider l'index complètement avant de le reconstruire, cochez "
+"cette case."
+
+#: ../../configuration/search-indexes.rst:64 744fa73379e74de08c1209f8b18722f3
+msgid "Batch size"
+msgstr "Taille des lots"
+
+#: ../../configuration/search-indexes.rst:62 ffde65437b91415a9f0f03459f025baf
+msgid ""
+"This setting lets you change the number of resources that will be indexed "
+"at once. In general, indexing large batchs is faster, but uses more "
+"memory. If you're not sure, keep the default value."
+msgstr ""
+"Ce paramètre vous permet de modifier le nombre de ressources qui seront "
+"indexées en même temps. En général, indexer des grands lots est plus "
+"rapide, mais utilise plus de mémoire. Si vous n'êtes pas sûr, gardez la "
+"valeur par défaut."
+
+#: ../../configuration/search-indexes.rst:66 a072076d74934eb79783b9a653a0a0d9
+msgid ""
+"To start the rebuilding process, click on the \"Start index rebuild\" "
+"button. The process will be started in a background job and you will be "
+"redirected back to the module's main configuration page."
+msgstr ""
+"Pour commencer le processus de reconstruction, cliquez sur le bouton « "
+"Démarrer la reconstruction de l'index ». Le processus sera lancé dans une "
+"tâche de fond et vous serez redirigé vers la page de configuration "
+"principale du module."
+
+#: ../../configuration/search-indexes.rst:72 f9c0c21b2eee4a7fb66dcc7a14cf693a
+msgid ""
+"Now that you have a search index, you can create a :doc:`search page "
+"<search-pages>`."
+msgstr ""
+"Maintenant que vous avez un index de recherche, vous pouvez créer une :doc:"
+"`page de recherche <search-pages>`."
+
+#: ../../configuration/search-indexes.rst:77 ca6d1e22e2df49a6b9589b09ad0c25bc
+msgid "Delete a search index"
+msgstr "Supprimer un index de recherche"
+
+#: ../../configuration/search-indexes.rst:79 6a01a2b173e948b39eec253353f87785
+msgid ""
+"To delete a search index, go to the Search module's main configuration "
+"page, find the search index you want to delete and click on the |trash "
+"icon| trash icon on the corresponding row. A drawer will appear on the "
+"right of the screen."
+msgstr ""
+"Pour supprimer un index de recherche, allez sur la page de configuration "
+"principale du module Search, trouvez l'index de recherche que vous voulez "
+"supprimer et cliquez sur |trash icon| l'icône de poubelle sur la ligne "
+"correspondante. Un tiroir apparaîtra sur la droite de l'écran."
+
+#: ../../configuration/search-indexes.rst:85 4e64356df1dd490aaa1bd3a8bb87652a
+msgid "Click on the \"Confirm delete\" button to delete the search index."
+msgstr ""
+"Cliquez sur le bouton « Confirmer la suppression » pour supprimer l'index "
+"de recherche."
+
+#: ../../configuration/search-indexes.rst:89 848f9cd2e18a4c538b78d253eefdb173
+msgid ""
+"This will not delete the actual data owned by the search engine. Only the "
+"search index configuration in Omeka will be deleted."
+msgstr ""
+"Cela ne supprimera pas les données réelles propres au moteur de recherche. "
+"Seule la configuration de l'index de recherche dans Omeka sera supprimée."
